@@ -1,0 +1,19 @@
+INFORME DE LIMPIEZA (CleanData.py)
+Archivo de entrada: data/raw/eurostat_ai.csv
+Filas/columnas iniciales: 682777 / 10
+Columna temporal: time_period
+Columna de valor: obs_value
+Columna geo: geo
+Columna freq: freq
+Columna unit: unit
+
+Filtro aplicado en 'freq': 682777 → 682777 (permitidos: ['A'])
+Unidades detectadas (previo a filtro): ['PC_ENT', 'PC_ENT_AI_EC', 'PC_ENT_AI_PDI', 'PC_ENT_AI_TANY', 'PC_ENT_AI_TX', 'PC_ENT_IUSE']
+Filtro aplicado en 'unit' para unidad porcentaje: 682777 → 266534 (unidad: PC_ENT)
+Eliminación de filas sin año o sin valor: 266534 → 225497
+
+Filas finales: 225497
+Años disponibles (min/max): 2021 / 2025
+Geografías distintas (según 'geo'): 36
+Columnas finales:
+structure, structure_id, freq, size_emp, nace_r2, indic_is, unit, geo, time_period, obs_value, year, value

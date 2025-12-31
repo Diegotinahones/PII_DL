@@ -1,0 +1,57 @@
+geo,indic_is,value,indic_label
+DE,E_AI_TAR,1.51,Automatización de procesos con IA
+ES,E_AI_TAR,1.63,Automatización de procesos con IA
+EU27_2020,E_AI_TAR,1.39,Automatización de procesos con IA
+FR,E_AI_TAR,1.73,Automatización de procesos con IA
+IT,E_AI_TAR,0.97,Automatización de procesos con IA
+NL,E_AI_TAR,2.36,Automatización de procesos con IA
+PT,E_AI_TAR,1.39,Automatización de procesos con IA
+DE,E_AI_TIR,4.34,Reconocimiento de imágenes
+ES,E_AI_TIR,5.57,Reconocimiento de imágenes
+EU27_2020,E_AI_TIR,3.78,Reconocimiento de imágenes
+FR,E_AI_TIR,3.69,Reconocimiento de imágenes
+IT,E_AI_TIR,2.92,Reconocimiento de imágenes
+NL,E_AI_TIR,5.2,Reconocimiento de imágenes
+PT,E_AI_TIR,3.11,Reconocimiento de imágenes
+DE,E_AI_TML,6.04,Machine learning (entrenamiento de modelos)
+ES,E_AI_TML,5.62,Machine learning (entrenamiento de modelos)
+EU27_2020,E_AI_TML,5.1,Machine learning (entrenamiento de modelos)
+FR,E_AI_TML,4.23,Machine learning (entrenamiento de modelos)
+IT,E_AI_TML,3.27,Machine learning (entrenamiento de modelos)
+NL,E_AI_TML,9.51,Machine learning (entrenamiento de modelos)
+PT,E_AI_TML,4.03,Machine learning (entrenamiento de modelos)
+DE,E_AI_TNLG,9.02,Generación de lenguaje (texto/voz/código)
+ES,E_AI_TNLG,8.92,Generación de lenguaje (texto/voz/código)
+EU27_2020,E_AI_TNLG,8.76,Generación de lenguaje (texto/voz/código)
+FR,E_AI_TNLG,7.82,Generación de lenguaje (texto/voz/código)
+IT,E_AI_TNLG,6.2,Generación de lenguaje (texto/voz/código)
+NL,E_AI_TNLG,16.34,Generación de lenguaje (texto/voz/código)
+PT,E_AI_TNLG,5.27,Generación de lenguaje (texto/voz/código)
+DE,E_AI_TPA,6.96,Robots/autonomía (automatización física)
+ES,E_AI_TPA,6.68,Robots/autonomía (automatización física)
+EU27_2020,E_AI_TPA,5.35,Robots/autonomía (automatización física)
+FR,E_AI_TPA,4.48,Robots/autonomía (automatización física)
+IT,E_AI_TPA,2.86,Robots/autonomía (automatización física)
+NL,E_AI_TPA,8.45,Robots/autonomía (automatización física)
+PT,E_AI_TPA,3.98,Robots/autonomía (automatización física)
+DE,E_AI_TPVSG,13.52,Generación de imagen/vídeo/audio
+ES,E_AI_TPVSG,11.38,Generación de imagen/vídeo/audio
+EU27_2020,E_AI_TPVSG,9.55,Generación de imagen/vídeo/audio
+FR,E_AI_TPVSG,7.5,Generación de imagen/vídeo/audio
+IT,E_AI_TPVSG,7.04,Generación de imagen/vídeo/audio
+NL,E_AI_TPVSG,14.92,Generación de imagen/vídeo/audio
+PT,E_AI_TPVSG,5.88,Generación de imagen/vídeo/audio
+DE,E_AI_TSR,10.9,Reconocimiento de voz
+ES,E_AI_TSR,7.2,Reconocimiento de voz
+EU27_2020,E_AI_TSR,7.22,Reconocimiento de voz
+FR,E_AI_TSR,6.14,Reconocimiento de voz
+IT,E_AI_TSR,6.77,Reconocimiento de voz
+NL,E_AI_TSR,11.61,Reconocimiento de voz
+PT,E_AI_TSR,3.96,Reconocimiento de voz
+DE,E_AI_TTM,13.5,Text mining (análisis de texto)
+ES,E_AI_TTM,10.05,Text mining (análisis de texto)
+EU27_2020,E_AI_TTM,11.75,Text mining (análisis de texto)
+FR,E_AI_TTM,10.23,Text mining (análisis de texto)
+IT,E_AI_TTM,11.61,Text mining (análisis de texto)
+NL,E_AI_TTM,22.93,Text mining (análisis de texto)
+PT,E_AI_TTM,6.86,Text mining (análisis de texto)

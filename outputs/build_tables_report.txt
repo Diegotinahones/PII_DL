@@ -1,0 +1,14 @@
+INFORME DE TABLAS (BuildProjectTables.py)
+Entrada: data/processed/ai_clean.csv
+Filas totales: 225497
+
+Años disponibles: 2021 → 2025
+Geo UE detectado: EU27_2020
+Geo España detectado: ES
+Geo foco: ['EU27_2020', 'ES', 'DE', 'FR', 'IT', 'PT', 'NL']
+
+Tabla 1 creada: outputs/adoption_country_year.csv (filas=137)
+Tabla 2 creada: outputs/adoption_top15_last_year.csv (año=2025)
+Tabla 3 creada: outputs/adoption_country_year_rank.csv
+Tabla 4 creada: outputs/sectors_es_top15_last_year.csv (año=2025)
+Tabla 5 creada: outputs/ai_tech_focus_last_year.csv (año=2025)

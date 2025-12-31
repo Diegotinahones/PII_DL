@@ -1,0 +1,4 @@
+Vista 3 (Ranking / bump, 2021–2025)
+- España: rank 15 → 15 (mejora si baja el número).
+- UE-27: rank 16 → 16.
+- Interacción: usar el desplegable para cambiar el conjunto de países (Top 10, Top 15 o foco) y la leyenda para filtrar manualmente.

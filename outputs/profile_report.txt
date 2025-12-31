@@ -1,0 +1,24 @@
+INFORME DE PERFILADO (ProfileData.py)
+Archivo de entrada: data/processed/ai_clean.csv
+Filas totales: 225497
+Columnas totales: 12
+
+Años disponibles: 2021 → 2025 (n=4)
+Geografías disponibles: n=36
+
+Dimensiones perfiladas (resumen):
+- indic_is: únicos=63, nulos=0 (csv: outputs/profile_indic_is_counts.csv)
+- nace_r2: únicos=50, nulos=0 (csv: outputs/profile_nace_r2_counts.csv)
+- size_emp: únicos=1, nulos=0 (csv: outputs/profile_size_emp_counts.csv)
+- geo: únicos=36, nulos=0 (csv: outputs/profile_geo_counts.csv)
+- year: únicos=4, nulos=0 (csv: outputs/profile_year_counts.csv)
+
+Valores únicos detectados en 'indic_is':
+E_AIX_CC1SIX_DA, E_AIX_CC1SI_DA, E_AIX_CC1SI_DAX, E_AI_ADOWN, E_AI_AEXT, E_AI_AMOWN, E_AI_AOS, E_AI_ARDY, E_AI_BCDP, E_AI_BCST, E_AI_BDDT, E_AI_BEC, E_AI_BIAS, E_AI_BIAS_ADOWN, E_AI_BIAS_AEXT, E_AI_BIAS_AMOWN, E_AI_BIAS_AOS, E_AI_BIAS_ARDY, E_AI_BINC, E_AI_BLE, E_AI_BLEG, E_AI_BNU, E_AI_CC, E_AI_CC1SIX_DA, E_AI_CC1SIX_DAX, E_AI_CC1SI_DA, E_AI_CC1SI_DASANY, E_AI_CC1SI_DASANY2, E_AI_CC1SI_DASGE3, E_AI_CC1SI_DAX, E_AI_CC1SI_DA_ANY, E_AI_DA, E_AI_EC, E_AI_P1ANY, E_AI_P1GE2, E_AI_P1GE3, E_AI_PBA, E_AI_PBAM, E_AI_PDI, E_AI_PFIN, E_AI_PHR, E_AI_PITS, E_AI_PLOG, E_AI_PME, E_AI_PMS, E_AI_PPP, E_AI_PRDI, E_AI_TANY, E_AI_TAR, E_AI_TGE2, E_AI_TGE3, E_AI_TIR, E_AI_TML, E_AI_TNLG, E_AI_TPA, E_AI_TPVSG, E_AI_TSR, E_AI_TTM, E_AI_TX, E_DI3_HI_AI_TANY, E_DI3_LO_AI_TANY, E_DI3_VHI_AI_TANY, E_DI3_VLO_AI_TANY
+
+Valores únicos detectados en 'nace_r2':
+C, C-E, C-F, C10-C12, C10-C18, C10-S951_X_K, C13-C15, C16-C18, C19, C19-C23, C20, C21, C22_C23, C24_C25, C26, C26-C33, C27, C27_C28, C28, C29_C30, C31-C33, D, D35, D_E, E, F, G, G45, G45-S951_X_K, G46, G47, H, I, I55, ICT, J, J58-J60, J61, J62_J63, L, L68, L_M, M, M69-M71, M72, M73-M75, N, N77-N82_X_N79, N79, S951
+
+Valores únicos detectados en 'size_emp':
+GE10
+

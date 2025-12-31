@@ -1,0 +1,99 @@
+<!-- docs/index.html -->
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adopción de IA en empresas (Eurostat)</title>
+    <meta
+      name="description"
+      content="Proyecto de visualización (Eurostat): tres vistas y tres modos de consulta (gráfico, tabla y resumen)."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <div class="container">
+        <p class="kicker">Proyecto de visualización — Eurostat</p>
+        <h1>Adopción de IA en empresas</h1>
+        <p class="subtitle">
+          En esta web se presentan varias vistas del dataset seleccionado y se puede elegir cómo consultarlas: gráfico, tabla de datos o
+          resumen textual.
+        </p>
+      </div>
+    </header>
+
+    <main id="contenido" class="container">
+      <div class="card">
+        <h2>Elije la vista y el modo de visualización</h2>
+
+        <div class="controls">
+          <div class="field">
+            <label for="viewSelect">Vista</label>
+            <select id="viewSelect" name="viewSelect">
+              <option value="vista1">Vista 1 — Top 15 países (último año)</option>
+              <option value="vista2">Vista 2 — Evolución temporal (2021–2025)</option>
+              <option value="vista3">Vista 3 — Ranking anual (bump chart)</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="displaySelect">Modo de visualización</label>
+            <select id="displaySelect" name="displaySelect">
+              <option value="table">Tabla</option>
+              <option value="summary">Resumen textual</option>
+              <option value="chart">Gráfico</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- GRÁFICO -->
+      <div id="chartBlock" class="card" hidden>
+        <h2>Gráfico</h2>
+        <div class="frame">
+          <iframe
+            id="chartFrame"
+            title="Vista 1 — Top 15 países (último año)"
+            src="./views/vista1_top15_last_year_interactive.html"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- TABLA -->
+      <div id="tableBlock" class="card">
+        <h2>Tabla</h2>
+        <div class="table-actions">
+          <a id="csvLink" class="btn-link" href="./tables/vista1_table.csv">Descargar CSV</a>
+          <a id="tableHtmlLink" class="btn-link" href="./tables/vista1_table.html">Abrir tabla (HTML)</a>
+        </div>
+        <div id="tableContainer" class="table-container">
+          <p class="hint">Cargando tabla…</p>
+        </div>
+      </div>
+
+      <!-- RESUMEN -->
+      <div id="summaryBlock" class="card" hidden>
+        <h2>Resumen textual</h2>
+        <div id="summaryBox" class="summary-box" tabindex="0">
+          <p class="hint">Cargando resumen…</p>
+        </div>
+        <p class="hint">
+          <a id="summaryHtmlLink" href="./text/vista1_summary.html">Abrir resumen (HTML)</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Fuente: Eurostat. Publicación: GitHub Pages.</p>
+      </div>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
