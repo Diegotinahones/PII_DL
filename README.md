@@ -14,9 +14,9 @@ https://github.com/Diegotinahones/PII_DL
   - `views/`: HTML de las vistas generadas con Plotly.
   - `tables/`: CSV y tablas HTML generadas a partir de CSV.
   - `text/`: resúmenes HTML generados a partir de TXT.
+- `src/`: scripts Python (descarga, limpieza, perfilado, construcción de tablas, generación de vistas y exportación de assets HTML).
 - `data/`: datos brutos (`raw/`) y procesados (`processed/`).
 - `outputs/`: informes y tablas intermedias de soporte.
-- Scripts Python: descarga, limpieza, perfilado, construcción de tablas y exportación de assets HTML.
 
 ## Requisitos
 - Python 3
@@ -34,7 +34,7 @@ https://github.com/Diegotinahones/PII_DL
 ## Regeneración de tablas/resúmenes HTML (desde CSV/TXT)
 Tras generar/actualizar los CSV y TXT en `docs/tables/` y `docs/text/`, ejecutar:
 ```bash
-python3 ExportHtmlAssets.py
+python3 src/ExportHTMLAssets.py
 ```
 
 Esto crea/actualiza:
